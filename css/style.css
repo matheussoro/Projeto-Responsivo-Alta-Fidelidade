@@ -1,0 +1,74 @@
+body, html {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    font-family: 'Titillium Web', sans-serif;   
+    background-color: #f9f9f9;
+    
+}
+
+/*CSS Cabeçalho*/
+
+.cabecalho {
+   
+}
+
+.logo {
+    margin-left: 3em;
+    width: 7em;
+    box-shadow: 0 0 1em black;
+}
+
+.links {
+    top: -10px;
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+    list-style: none;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bold;
+    transform: translate(20%, -10%);  
+}
+
+.cabecalho p {
+    font-weight: 700;
+    color: #f49242;
+    font-size: 1em;
+    width: 71%;
+    text-align: center;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+/*CSS SECTION TITULOS*/
+
+.titulos {
+    margin: auto;
+}
+
+.titulo {
+    font-family: 'Fredericka the Great', cursive;   
+    font-size: 2.3em; 
+}
+
+.box-ano {
+    list-style: none;
+    float: right;
+    width: 20%;
+    margin: 0;
+}
+
+.box-ano li {
+    margin: 0;
+  
+}
+
+.ano {
+    font-family: 'Fredericka the Great', cursive;   
+    font-size: 1.1em; 
+}
+
+.linha-decorativa {
+    width: 50%;
+}
