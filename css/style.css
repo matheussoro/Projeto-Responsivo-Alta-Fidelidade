@@ -3,8 +3,7 @@ body, html {
     width: 100vw;
     margin: 0;
     font-family: 'Titillium Web', sans-serif;   
-    background-color: #f9f9f9;
-    
+    background-color: #f9f9f9;     
 }
 
 /*CSS Cabeçalho*/
@@ -72,3 +71,92 @@ body, html {
 .linha-decorativa {
     width: 50%;
 }
+
+.destaque {
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    padding: 1rem;
+    background-image: url("../img/fundo_cinza.jpg");
+    background-size: 100% 100%;
+}
+
+.camiseta {
+    display: block;
+    margin: 1rem auto;
+    height: 300px;
+   
+}
+
+.bandeira {
+    position: absolute;
+    background: #f49242;
+    width: auto;
+    display: inline-block;
+    padding: 0.5rem;
+    top: 0;
+    right: 10%;
+}
+
+.bandeira h3 {
+    margin: 0;
+    text-align: center;
+}
+
+.bandeira h6 {
+    margin: 0;
+    text-align: center;
+}
+
+.destaque h1 {
+    text-transform: uppercase;
+    margin: 0.5em;
+    font-size: 28px;
+    color: white;
+}
+
+.destaque h4 {
+    margin: 0.5em;
+    text-transform: uppercase;
+    color: white;
+}
+
+.destaque p {
+    color: white;
+    font-size: 14px;
+}
+
+.botao {
+    display: inline-block;
+    background: #f49242;
+    padding: 0.5rem 1rem;
+}
+
+.botao img {
+    height: 10px;
+
+}
+
+@media (min-width: 768px) {
+    .camiseta {
+        float: left;
+        margin: 0;
+        padding: 0 -2rem;
+        width: 50%;
+        box-sizing: border-box;
+          
+    }
+
+    .destaque {
+        height: 45%;
+        
+    }
+
+    .destaque h1 {
+        margin-top: 8%;
+    }
+
+    .bandeira {
+        position: absolute;
+        right: 45%;
+    }
