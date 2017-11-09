@@ -248,7 +248,7 @@ body, html {
     position: relative;
 }
 .cartao-conteudo-imagem{
-width: 80%;
+height: 6rem;
 padding: 0.2rem;
 position: absolute;
 left: 50%;
@@ -261,13 +261,12 @@ transform: translateX(-50%);
     font-weight: bold;
 }
 .rodape-marca{
-    display: inline;
-    float: left;
-    width: 40%;
+    width: 70%;
+    margin: 0.5rem auto;
 }
-.artigos-inferiores{ /*nao consegui settar todo o conjunto pra o meio da pagina, alguem?*/
-    width: 90%;
-    margin-left: 10%;
+.artigos-inferiores{ /*parte da LUCIA, avaliar ela mal e fica tudo certo!*/
+    width: 100%;
+    margin: 0;
 }
 
 @media (min-width: 768px) {
@@ -290,6 +289,6 @@ position: absolute;
 }
 
 .rodape-marca{
-width: 40%;
+width: 70%;
 }
 }
