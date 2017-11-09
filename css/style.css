@@ -46,23 +46,24 @@ body, html {
 .titulo {
     font-family: 'Fredericka the Great', cursive;   
     font-size: 2.3em; 
-    padding: 0.5em;
+    padding: 0 0 0 0.5em;
 }
 
 .titulo_2 {
     margin: 0;
-    font-size: 0.9em; 
+    font-size: 1em;
+    text-align: center;
 }
 
 .botao-laranja-2 {
     display: block;
-    width: 80vw;
-    margin: 1rem auto;
-    padding: 0.5rem 1rem;
+    width: 100%;
     background: #f49242;
-    text-decoration:none;  
     color: white;
+    text-decoration:none;
     text-align: center;
+    text-align: center;
+    font-size: 0.8em;
 
 
 }
