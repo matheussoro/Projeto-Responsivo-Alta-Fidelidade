@@ -45,12 +45,14 @@ body, html {
 
 .titulos__principal{
     margin: 1em;
+    width: 100%
 }
 
 .titulo {
     width: 80%;
+    padding: 0.2em;
     font-family: 'Fredericka the Great', cursive;   
-    font-size: 2.3em; 
+    font-size: 2.1em; 
 }
 
 .titulo_2 {
