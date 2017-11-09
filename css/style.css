@@ -6,6 +6,7 @@ body, html {
     background-color: #f9f9f9;     
 }
 
+
 /*CSS Cabeçalho*/
 
 .cabecalho {
@@ -160,3 +161,56 @@ body, html {
         position: absolute;
         right: 45%;
     }
+
+
+
+.artigo-principal {
+    margin: 0.5em 1.5em 1em 1em;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.artigo-principal h1 {
+    text-transform: uppercase;
+}
+
+.artigo-principal h2 {
+    text-transform: uppercase;
+    font-size: 1.1em
+    
+}
+
+.artigo-principal__link {
+    color: #FF4C10
+}
+
+
+@media(min-width: 768px) {
+
+    .artigo-principal {
+        margin: 2em;
+    }
+
+    .conteudo {
+        box-sizing: border-box;
+        float: left;
+        width: 50%;        
+        padding: 0 1rem 0 0;
+    }
+
+    .conteudo:last-child { 
+        float: right;
+    }
+}
+
+@media(min-width: 992px) {
+
+    .artigo-principal h1 {
+        font-size: 2.5em  
+    }
+
+    .conteudo {
+        box-sizing: border-box;
+        padding: 0 2rem 0 0;
+    }
+
+}
