@@ -205,6 +205,7 @@ body, html {
 .artigo-principal {
     margin: 0.5em 1.5em 1em 1em;
     font-family: 'Titillium Web', sans-serif;
+    Height: auto;
 }
 
 .artigo-principal h1 {
@@ -226,8 +227,8 @@ body, html {
 
     .artigo-principal {
         margin: 2em;
+        height: 45%;
     }
-
     .conteudo {
         box-sizing: border-box;
         float: left;
@@ -284,31 +285,20 @@ transform: translateX(-50%);
     width: 70%;
     margin: 0.5rem auto;
 }
-.artigos-inferiores{ /*parte da LUCIA, avaliar ela mal e fica tudo certo!*/
+.artigos-inferiores { /*parte da LUCIA, avaliar ela mal e fica tudo certo!*/
     width: 100%;
     margin: 0;
 }
 
 @media (min-width: 768px) {
-.cartao-conteudo-imagem{
-    width: 20%;
-    padding: 0.2rem;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-}
+    .rodape-marca{
+        display: inline-block;
+        width: 40%;
+        margin: 0.5rem auto;
+    }
 }
 
-@media (max-width: 320px){
-.cartao-conteudo{
-width: 20%;
-padding: 0.2rem;
-left: 50%;
-transform: translateX(-50%);
-position: absolute;
-}
-
-.rodape-marca{
-width: 70%;
-}
-}
+    .artigos-inferiores {
+        display: inline;
+        margin-left: 10%;
+    }
