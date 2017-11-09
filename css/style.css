@@ -52,6 +52,24 @@ body, html {
     font-size: 2.3em; 
 }
 
+.titulo_2 {
+    margin: 0;
+    font-size: 1em; 
+}
+
+.botao-laranja-2 {
+    display: block;
+    width: 80vw;
+    margin: 1rem auto;
+    padding: 0.5rem 1rem;
+    background: #f49242;
+    text-decoration:none;  
+    color: white;
+    text-align: center;
+
+
+}
+
 .box-ano {
     list-style: none;
     float: right;
@@ -73,11 +91,14 @@ body, html {
     width: 50%;
 }
 
+/*CSS SECTION HERO*/
+
 .destaque {
     box-sizing: border-box;
     position: relative;
     width: 100%;
     padding: 1rem;
+    margin-top: 1rem;
     background-image: url("../img/fundo_cinza.jpg");
     background-size: 100% 100%;
 }
@@ -127,13 +148,13 @@ body, html {
     font-size: 14px;
 }
 
-.botao {
+.botao-laranja {
     display: inline-block;
     background: #f49242;
     padding: 0.5rem 1rem;
 }
 
-.botao img {
+.botao-laranja img {
     height: 10px;
 
 }
@@ -161,8 +182,9 @@ body, html {
         position: absolute;
         right: 45%;
     }
+}
 
-
+/*CSS SECTION ARTIGO PRINCIPAL*/
 
 .artigo-principal {
     margin: 0.5em 1.5em 1em 1em;
@@ -175,12 +197,12 @@ body, html {
 
 .artigo-principal h2 {
     text-transform: uppercase;
-    font-size: 1.1em
+    font-size: 1.1em;
     
 }
 
 .artigo-principal__link {
-    color: #FF4C10
+    color: #FF4C10;
 }
 
 
@@ -205,7 +227,7 @@ body, html {
 @media(min-width: 992px) {
 
     .artigo-principal h1 {
-        font-size: 2.5em  
+        font-size: 2.5em;
     }
 
     .conteudo {
@@ -214,3 +236,5 @@ body, html {
     }
 
 }
+
+/*CSS SECTION ARTIGOS INFERIORES*/
