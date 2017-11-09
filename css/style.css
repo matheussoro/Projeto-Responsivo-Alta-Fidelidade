@@ -269,6 +269,7 @@ transform: translateX(-50%);
     width: 90%;
     margin-left: 10%;
 }
+
 @media (min-width: 768px) {
 .cartao-conteudo-imagem{
     width: 20%;
@@ -277,17 +278,18 @@ transform: translateX(-50%);
     left: 50%;
     transform: translateX(-50%);
 }
+}
 
-@media (min-width: 320px){
-.cartao-conteudo-imagem{
+@media (max-width: 320px){
+.cartao-conteudo{
 width: 20%;
 padding: 0.2rem;
 left: 50%;
 transform: translateX(-50%);
+position: absolute;
 }
 
 .rodape-marca{
 width: 40%;
 }
-
-@media (min-width: 1200px){
+}
